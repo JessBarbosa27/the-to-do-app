@@ -24,7 +24,7 @@ export const ToDoWrapper = () => {
   };
 
   const deleteToDo = (task) => {
-    alert("Are you sure you want to delete " + task.task + "?");
+    // alert("Are you sure you want to delete " + task.task + "?");
     setTodos(todos.filter((todo) => todo.id !== task.id));
   }
 
